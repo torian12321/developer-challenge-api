@@ -4,7 +4,8 @@
   "description": "Simple REST API for frontend code challenge",
   "scripts": {
     "api": "json-server --watch api/db.json --port 9001",
-    "start": "npm run api"
+    "main": "node server.js",
+    "start": "npm run main"
   },
   "repository": {
     "type": "git",
